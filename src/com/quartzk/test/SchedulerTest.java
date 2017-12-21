@@ -17,7 +17,7 @@ import org.quartz.impl.StdSchedulerFactory;
 
 public class SchedulerTest {
 	
-	 // 定义定时任务的执行逻辑 cronExpression没秒执行一次
+	 // 定义定时任务的执行逻辑 cronExpression每5秒执行一次
 	  private final static String CRON_EXPRESSION = "0/5 * * * * ?";  
 	  // 定义任务名称（自定义）  
 	  private final static String JOB_NAME = "JOB_NAME";  
